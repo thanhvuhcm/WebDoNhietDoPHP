@@ -1,0 +1,39 @@
+.tam,strong,i,b{
+	font-size:x-large;
+}
+ #temp,#humi{
+	
+	margin:2em;
+	padding:1em;
+	/* border-radius: 5%; */
+}
+.fa-thermometer-half,.fa-tint,.fa-calendar {
+	font-size:large;
+	padding-right:0.2em;
+}
+.container-fluid{
+	background-color:#000000;
+	font-size:large;
+	font-style:bold;
+}
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+	.tam,strong,i,b{
+	font-size:small;
+}
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error{
+    color:red;
+}
+.formatcenter, th{
+    text-align: -webkit-center;
+}
